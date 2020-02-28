@@ -1,0 +1,276 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body{
+    padding: 16px;
+    margin: 0px;
+    background-image: url(https://images.theconversation.com/files/199943/original/file-20171219-4957-1xotuz6.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Poppins Light'), local('Poppins-Light'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+
+ nav{
+    top: 10px;
+    width: 100%;
+    height: 80px;
+    background: none;
+    padding: 0 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.5s;
+    min-height: 8vh;
+    font-family: 'poppins';
+     font-style: normal;
+     font-weight: 400px;
+     src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+ }
+
+ .logo {
+     text-transform: uppercase;
+     letter-spacing: 5px;
+     font-size: 56px;
+     margin-left: 80px;
+ }
+
+ .logo li{
+     list-style: none;
+ }
+
+ .logo img{
+     width: 150px;
+     height: 125px;
+     position: absolute;
+     top: 5px;
+     left: 120px;
+ }
+
+ .nav-links {
+     display: flex;
+     justify-content: space-around;
+     width: 60%;
+ }
+
+ .nav-links li{
+     list-style: none;
+ }
+
+ .nav-links a{
+     color: white;
+     text-decoration: none;
+     letter-spacing: 3px;
+     font-size: 18px;
+ }
+
+ .hover {
+     display: inline-block;
+     position: relative;
+ }
+
+ .hover::before {
+     content:'';
+     position: absolute;
+     width: 100%;
+     transform: scaleX(0);
+     height: 2px;
+     bottom: 0;
+     left: 0;
+     background-color: white;
+     transform-origin: bottom right;
+     transition: transform 0.25s ease-out;
+ }
+
+ .hover:hover::before{
+     transform: scaleX(1);
+     transform-origin: bottom left;
+ }
+
+ .img1, .img2, .img3, .img4{
+     position: absolute;
+ }
+
+ .img1{
+     top: 362px;
+     left: 50px;
+ }
+
+ .img2{
+     top: 362px;
+     left: 420px;
+ }
+
+ .img3{
+     top: 362px;
+     right: 400px;
+ }
+
+ .img4{
+     top: 362px;
+     right: 40px;
+ }
+
+ h1, h2, h3, h4{
+     position: absolute;
+     font-size: 30px;
+     color: white;
+ }
+
+ h1{
+     top: 329px;
+     left: 150px;
+ }
+
+ h2{
+     top: 329px;
+     left: 490px;
+ }
+
+ h3{
+     top: 329px;
+     right: 490px;
+ }
+
+ h4{
+     top: 329px;
+     right: 150px;
+ }
+
+ h5{
+     color: white;
+     position: absolute;
+     top: 25%;
+     font-size: 70px;
+     left: 35%;
+ }
+
+
+  .img5{
+      position: absolute;
+      bottom: -810px;
+      right: 0px;
+  }
+
+  .img9{
+      position: absolute;
+      bottom: -810px;
+      left: 0px;
+  }
+
+  
+  h6{
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    left: 90px;
+    bottom: -450px;
+}
+
+  h14{
+     position: absolute;
+     font-size: 30px;
+     color: white;
+     left: 80px;
+     bottom: -650px;
+ }
+
+ .img6{
+     position: absolute;
+      bottom: -1310px;
+      right: 0px;
+ }
+
+ .img10{
+     position: absolute;
+     bottom: -1310px;
+     left: 0px;
+ }
+
+ h7{
+     font-weight: bold;
+     position: absolute;
+     font-size: 50px;
+     color: white;
+     bottom: -960px;
+     left: 90px;
+ }
+
+ h11{
+     position: absolute;
+     color: white;
+     font-size: 30px;
+     left: 90px;
+     bottom: -1210px;
+ }
+
+ .img7{
+     position: absolute;
+     bottom: -2010px;
+     left: 0px
+ }
+
+ .img11{
+     position: absolute;
+     bottom: -1800px;
+     right: 0px;
+     opacity: 50%;
+ }
+
+ h8{
+     position: absolute;
+     color: black;
+     font-weight: bold;
+     font-size: 40px;
+     bottom: -1580px;
+     left: 46%;
+ }
+
+ h12{
+     position: absolute;
+     font-weight: 600px;
+     color: black;
+     font-size: 20px;
+     bottom: -1700px;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .img8{
+    position: absolute;
+    bottom: -2630px;
+    left: 30%;
+}
+
+ .img12{
+     position: absolute;
+     bottom: -2650px;
+     right: 0px;
+ }
+
+ h9{
+     color: white;
+     font-size: 40px;
+     font-weight: bold;
+     position: absolute;
+     bottom: -2130px;
+     left: 45%;
+ }
+
+ h13{
+     font-weight: 900px;
+     color: white;
+     font-size: 30px;
+     position: absolute;
+     bottom: -2450px;
+     left: 35%;
+ }
